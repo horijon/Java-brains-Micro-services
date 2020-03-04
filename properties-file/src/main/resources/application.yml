@@ -1,0 +1,19 @@
+db:
+  connection: '{connectionString: ''http://___'', userName: ''horijon'', password:''pass''}'
+  host: 127.0.0.1
+  port: 1200
+dbValues: '{connectionString: ''http://___'', userName: ''horijon'', password: ''pass''}'
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+my:
+  greeting: Hello World
+  list:
+    values: One,Two,Three
+server:
+  port: 8600
+spring:
+  profiles:
+    active: test
